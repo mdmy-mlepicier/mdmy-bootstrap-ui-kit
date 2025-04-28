@@ -1,0 +1,208 @@
+<!-- Navigation Components -->
+<div class="space-y-4">
+  <!-- Basic Navbar -->
+  <h3 class="h5 fw-bold mb-3">Basic Navbar</h3>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Logo</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#basicNavbar" aria-controls="basicNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="basicNavbar">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Navbar with Search -->
+  <h3 class="h5 fw-bold mb-3">Navbar with Search</h3>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary mb-4">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Brand</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#searchNavbar" aria-controls="searchNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="searchNavbar">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Navbar with Dropdown -->
+  <h3 class="h5 fw-bold mb-3">Navbar with Dropdown</h3>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light mb-4">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Menu</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#dropdownNavbar" aria-controls="dropdownNavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="dropdownNavbar">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Products
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Category 1</a></li>
+              <li><a class="dropdown-item" href="#">Category 2</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Special Items</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Services
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Service 1</a></li>
+              <li><a class="dropdown-item" href="#">Service 2</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Custom Services</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="d-flex">
+          <button class="btn btn-outline-primary me-2" type="button">Sign In</button>
+          <button class="btn btn-primary" type="button">Sign Up</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sidebar Navigation -->
+  <h3 class="h5 fw-bold mb-3">Sidebar Navigation</h3>
+  <div class="d-flex">
+    <div class="d-flex flex-column flex-shrink-0 p-3 bg-light" style="width: 280px;">
+      <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+        <i class="bi bi-speedometer2 me-2"></i>
+        <span class="fs-4">Dashboard</span>
+      </a>
+      <hr>
+      <ul class="nav nav-pills flex-column mb-auto">
+        <li class="nav-item">
+          <a href="#" class="nav-link active" aria-current="page">
+            <i class="bi bi-house me-2"></i>
+            Home
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link link-dark">
+            <i class="bi bi-grid me-2"></i>
+            Dashboard
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link link-dark">
+            <i class="bi bi-people me-2"></i>
+            Customers
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link link-dark">
+            <i class="bi bi-graph-up me-2"></i>
+            Reports
+          </a>
+        </li>
+        <li>
+          <a href="#" class="nav-link link-dark">
+            <i class="bi bi-gear me-2"></i>
+            Settings
+          </a>
+        </li>
+      </ul>
+      <hr>
+      <div class="dropdown">
+        <a href="#" class="d-flex align-items-center link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+          <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
+          <strong>Username</strong>
+        </a>
+        <ul class="dropdown-menu text-small shadow">
+          <li><a class="dropdown-item" href="#">New project...</a></li>
+          <li><a class="dropdown-item" href="#">Settings</a></li>
+          <li><a class="dropdown-item" href="#">Profile</a></li>
+          <li><hr class="dropdown-divider"></li>
+          <li><a class="dropdown-item" href="#">Sign out</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="p-3">
+      <p>Main content area</p>
+    </div>
+  </div>
+
+  <!-- Breadcrumb Navigation -->
+  <h3 class="h5 fw-bold mb-3 mt-4">Breadcrumb Navigation</h3>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#"><i class="bi bi-house-door me-1"></i>Home</a></li>
+      <li class="breadcrumb-item"><a href="#">Library</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Data</li>
+    </ol>
+  </nav>
+
+  <!-- Bottom Navigation Bar -->
+  <h3 class="h5 fw-bold mb-3 mt-4">Bottom Navigation Bar</h3>
+  <nav class="navbar fixed-bottom navbar-light bg-light">
+    <div class="container-fluid">
+      <ul class="navbar-nav flex-row justify-content-around w-100">
+        <li class="nav-item">
+          <a class="nav-link active d-flex flex-column align-items-center" href="#">
+            <i class="bi bi-house"></i>
+            <span class="small">Home</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-flex flex-column align-items-center" href="#">
+            <i class="bi bi-search"></i>
+            <span class="small">Search</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-flex flex-column align-items-center" href="#">
+            <i class="bi bi-plus-circle"></i>
+            <span class="small">Add</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-flex flex-column align-items-center" href="#">
+            <i class="bi bi-heart"></i>
+            <span class="small">Favorites</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link d-flex flex-column align-items-center" href="#">
+            <i class="bi bi-person"></i>
+            <span class="small">Profile</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</div>

@@ -1,0 +1,117 @@
+<!-- Tabs Components -->
+<div class="space-y-4">
+  <!-- Basic Tabs -->
+  <h3 class="h5 fw-bold mb-3">Basic Tabs</h3>
+  <div>
+    <ul class="nav nav-tabs" id="basicTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Home</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Profile</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Contact</button>
+      </li>
+    </ul>
+    <div class="tab-content p-3 border border-top-0" id="basicTabContent">
+      <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+        <p>This is the home tab content. Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua.</p>
+      </div>
+      <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+        <p>This is the profile tab content. Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.</p>
+      </div>
+      <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+        <p>This is the contact tab content. Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pills Tabs -->
+  <h3 class="h5 fw-bold mb-3 mt-4">Pills Tabs</h3>
+  <div>
+    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+      </li>
+    </ul>
+    <div class="tab-content" id="pills-tabContent">
+      <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+        <p>This is the home pills content. Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua.</p>
+      </div>
+      <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+        <p>This is the profile pills content. Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid.</p>
+      </div>
+      <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+        <p>This is the contact pills content. Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Vertical Tabs -->
+  <h3 class="h5 fw-bold mb-3 mt-4">Vertical Tabs</h3>
+  <div class="d-flex align-items-start">
+    <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">Home</button>
+      <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill" data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile" aria-selected="false">Profile</button>
+      <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">Messages</button>
+      <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill" data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings" aria-selected="false">Settings</button>
+    </div>
+    <div class="tab-content" id="v-pills-tabContent">
+      <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab" tabindex="0">
+        <p>This is the home vertical tab content. Raw denim you probably haven't heard of them jean shorts Austin.</p>
+      </div>
+      <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab" tabindex="0">
+        <p>This is the profile vertical tab content. Food truck fixie locavore, accusamus mcsweeney's marfa nulla.</p>
+      </div>
+      <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab" tabindex="0">
+        <p>This is the messages vertical tab content. Etsy mixtape wayfarers, ethical wes anderson tofu.</p>
+      </div>
+      <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab" tabindex="0">
+        <p>This is the settings vertical tab content. Trust fund seitan letterpress, keytar raw denim keffiyeh.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tabs with Icons -->
+  <h3 class="h5 fw-bold mb-3 mt-4">Tabs with Icons</h3>
+  <div>
+    <ul class="nav nav-tabs" id="iconTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active d-flex align-items-center" id="dashboard-tab" data-bs-toggle="tab" data-bs-target="#dashboard-tab-pane" type="button" role="tab" aria-controls="dashboard-tab-pane" aria-selected="true">
+          <i class="bi bi-speedometer2 me-2"></i>
+          Dashboard
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link d-flex align-items-center" id="users-tab" data-bs-toggle="tab" data-bs-target="#users-tab-pane" type="button" role="tab" aria-controls="users-tab-pane" aria-selected="false">
+          <i class="bi bi-people me-2"></i>
+          Users
+        </button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link d-flex align-items-center" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings-tab-pane" type="button" role="tab" aria-controls="settings-tab-pane" aria-selected="false">
+          <i class="bi bi-gear me-2"></i>
+          Settings
+        </button>
+      </li>
+    </ul>
+    <div class="tab-content p-3 border border-top-0" id="iconTabContent">
+      <div class="tab-pane fade show active" id="dashboard-tab-pane" role="tabpanel" aria-labelledby="dashboard-tab" tabindex="0">
+        <p>This is the dashboard tab content with an icon. View your analytics and key metrics here.</p>
+      </div>
+      <div class="tab-pane fade" id="users-tab-pane" role="tabpanel" aria-labelledby="users-tab" tabindex="0">
+        <p>This is the users tab content with an icon. Manage your users and permissions here.</p>
+      </div>
+      <div class="tab-pane fade" id="settings-tab-pane" role="tabpanel" aria-labelledby="settings-tab" tabindex="0">
+        <p>This is the settings tab content with an icon. Adjust your application settings here.</p>
+      </div>
+    </div>
+  </div>
+</div>

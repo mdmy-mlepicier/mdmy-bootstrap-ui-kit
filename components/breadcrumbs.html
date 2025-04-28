@@ -1,0 +1,98 @@
+<!-- Breadcrumb Components -->
+<div class="space-y-4">
+  <!-- Basic Breadcrumb -->
+  <h3 class="h5 fw-bold mb-3">Basic Breadcrumb</h3>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+      <li class="breadcrumb-item"><a href="#">Library</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Data</li>
+    </ol>
+  </nav>
+
+  <!-- Breadcrumb with Icons -->
+  <h3 class="h5 fw-bold mb-3 mt-4">Breadcrumb with Icons</h3>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="#" class="d-flex align-items-center">
+          <i class="bi bi-house-door me-1"></i>
+          Home
+        </a>
+      </li>
+      <li class="breadcrumb-item">
+        <a href="#" class="d-flex align-items-center">
+          <i class="bi bi-folder me-1"></i>
+          Projects
+        </a>
+      </li>
+      <li class="breadcrumb-item active d-flex align-items-center" aria-current="page">
+        <i class="bi bi-file-text me-1"></i>
+        Current Project
+      </li>
+    </ol>
+  </nav>
+
+  <!-- Divider Style Breadcrumb -->
+  <h3 class="h5 fw-bold mb-3 mt-4">Divider Style Breadcrumb</h3>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+      <li class="breadcrumb-item"><a href="#">Products</a></li>
+      <li class="breadcrumb-item"><a href="#">Technology</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Gadgets</li>
+    </ol>
+  </nav>
+
+  <!-- Breadcrumb with Background -->
+  <h3 class="h5 fw-bold mb-3 mt-4">Breadcrumb with Background</h3>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb p-3 bg-light rounded-3">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+      <li class="breadcrumb-item"><a href="#">Category</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Current Page</li>
+    </ol>
+  </nav>
+
+  <!-- Breadcrumb with Dropdown -->
+  <h3 class="h5 fw-bold mb-3 mt-4">Breadcrumb with Dropdown</h3>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="#">Home</a></li>
+      <li class="breadcrumb-item">
+        <div class="dropdown d-inline">
+          <a href="#" class="dropdown-toggle text-decoration-none" data-bs-toggle="dropdown">
+            Projects
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Project 1</a></li>
+            <li><a class="dropdown-item" href="#">Project 2</a></li>
+            <li><a class="dropdown-item" href="#">Project 3</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="breadcrumb-item active" aria-current="page">Current Project</li>
+    </ol>
+  </nav>
+
+  <!-- Responsive Breadcrumb -->
+  <h3 class="h5 fw-bold mb-3 mt-4">Responsive Breadcrumb</h3>
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb flex-wrap">
+      <li class="breadcrumb-item"><a href="#" class="d-none d-sm-inline">Home</a><a href="#" class="d-inline d-sm-none">...</a></li>
+      <li class="breadcrumb-item"><a href="#" class="d-none d-md-inline">Level 1</a><a href="#" class="d-inline d-md-none">...</a></li>
+      <li class="breadcrumb-item"><a href="#" class="d-none d-lg-inline">Level 2</a><a href="#" class="d-inline d-lg-none">...</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Current Page</li>
+    </ol>
+  </nav>
+</div>
+
+<style>
+/* Custom divider style */
+.breadcrumb-item + .breadcrumb-item::before {
+  content: "›";
+  font-size: 1.2em;
+  line-height: 1;
+  vertical-align: middle;
+}
+</style>

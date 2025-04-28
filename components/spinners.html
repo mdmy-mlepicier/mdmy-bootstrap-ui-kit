@@ -1,0 +1,115 @@
+<!-- Spinner Components -->
+<div class="space-y-4">
+  <!-- Basic Spinners -->
+  <h3 class="h5 fw-bold mb-3">Basic Spinners</h3>
+  <div class="d-flex gap-3">
+    <div class="spinner-border" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+    <div class="spinner-grow" role="status">
+      <span class="visually-hidden">Loading...</span>
+    </div>
+  </div>
+
+  <!-- Colors -->
+  <h3 class="h5 fw-bold mb-3 mt-4">Colored Spinners</h3>
+  <div class="d-flex gap-3">
+    <div class="spinner-border text-primary" role="status"></div>
+    <div class="spinner-border text-secondary" role="status"></div>
+    <div class="spinner-border text-success" role="status"></div>
+    <div class="spinner-border text-danger" role="status"></div>
+    <div class="spinner-border text-warning" role="status"></div>
+    <div class="spinner-border text-info" role="status"></div>
+  </div>
+
+  <!-- Growing Spinners -->
+  <h3 class="h5 fw-bold mb-3 mt-4">Growing Spinners</h3>
+  <div class="d-flex gap-3">
+    <div class="spinner-grow text-primary" role="status"></div>
+    <div class="spinner-grow text-secondary" role="status"></div>
+    <div class="spinner-grow text-success" role="status"></div>
+    <div class="spinner-grow text-danger" role="status"></div>
+    <div class="spinner-grow text-warning" role="status"></div>
+    <div class="spinner-grow text-info" role="status"></div>
+  </div>
+
+  <!-- Sizes -->
+  <h3 class="h5 fw-bold mb-3 mt-4">Spinner Sizes</h3>
+  <div class="d-flex align-items-center gap-3">
+    <div class="spinner-border spinner-border-sm" role="status"></div>
+    <div class="spinner-border" role="status"></div>
+    <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status"></div>
+    <div class="spinner-grow spinner-grow-sm" role="status"></div>
+    <div class="spinner-grow" role="status"></div>
+    <div class="spinner-grow" style="width: 3rem; height: 3rem;" role="status"></div>
+  </div>
+
+  <!-- Spinners in Buttons -->
+  <h3 class="h5 fw-bold mb-3 mt-4">Spinners in Buttons</h3>
+  <div class="d-flex gap-3">
+    <button class="btn btn-primary" type="button" disabled>
+      <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+      <span class="visually-hidden">Loading...</span>
+    </button>
+    <button class="btn btn-primary" type="button" disabled>
+      <span class="spinner-border spinner-border-sm me-2" role="status" aria-hidden="true"></span>
+      Loading...
+    </button>
+    <button class="btn btn-secondary" type="button" disabled>
+      <span class="spinner-grow spinner-grow-sm me-2" role="status" aria-hidden="true"></span>
+      Loading...
+    </button>
+  </div>
+
+  <!-- Spinner Placement -->
+  <h3 class="h5 fw-bold mb-3 mt-4">Spinner Placement</h3>
+  <!-- Center -->
+  <div class="d-flex justify-content-center mb-3">
+    <div class="spinner-border" role="status"></div>
+  </div>
+  <!-- Flex Center -->
+  <div class="d-flex align-items-center justify-content-center mb-3" style="height: 100px; background-color: #f8f9fa;">
+    <div class="spinner-border" role="status"></div>
+  </div>
+  <!-- Float -->
+  <div class="clearfix mb-3">
+    <div class="spinner-border float-end" role="status"></div>
+  </div>
+  <!-- Text Align -->
+  <div class="text-center mb-3">
+    <div class="spinner-border" role="status"></div>
+  </div>
+
+  <!-- Custom Spinners -->
+  <h3 class="h5 fw-bold mb-3 mt-4">Custom Spinners</h3>
+  <div class="d-flex gap-3">
+    <!-- Custom Size and Color -->
+    <div class="spinner-border" style="width: 4rem; height: 4rem; color: #6f42c1;" role="status"></div>
+    <!-- Custom Speed -->
+    <div class="spinner-border" style="animation-duration: 1.5s;" role="status"></div>
+    <!-- Custom Border Width -->
+    <div class="spinner-border" style="border-width: 0.3em;" role="status"></div>
+  </div>
+
+  <!-- Loading Overlay -->
+  <h3 class="h5 fw-bold mb-3 mt-4">Loading Overlay</h3>
+  <div class="position-relative p-5 bg-light border rounded">
+    <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center justify-content-center bg-white bg-opacity-75">
+      <div class="spinner-border text-primary" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+    </div>
+    <p>This content is behind a loading overlay</p>
+    <p>The spinner will appear on top of this content</p>
+  </div>
+</div>
+
+<style>
+/* Optional: Custom animation speed for spinners */
+.spinner-border.slow {
+  animation-duration: 2s;
+}
+.spinner-border.fast {
+  animation-duration: .5s;
+}
+</style>
